@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div class="flex-spacebetween">
+                <div class="logo-container"> MSF</div>
+                <div class="menu-icon-container">
+                    <div id="nav-icon-id">
+                        <div id="nav-one" style="margin-top: 0px;"></div>
+                        <div id="nav-two"></div>
+                        <div id="nav-three"></div>
+                    </div>
+                </div>
+                <div class="test-container" id="test-container-id">
+                    <div class="test-text">Test <i class="fa fa-clock-o" style="font-size:25px; margin-left: 10px;"></i>
+                    </div>
+                    <div class="test" id="1" onclick="reload(60)"> 1:00 </div>
+                    <div class="test" id="2" onclick="reload(120)"> 2:00 </div>
+                    <div class="test" id="3" onclick="reload(180)"> 3:00 </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section>
+    <div class="content-container">
+        <div class="sub-container">
+            <div class="top-bar">
+                <div class="timer">0:00 </div>
+                <i class="fa fa-clock-o" style="font-size:25px; margin-left: 10px;"></i>
+            </div>
+            <div class="actual-content" id="actual-content-id">
+
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
