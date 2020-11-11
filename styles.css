@@ -72,7 +72,7 @@ html , body {
     border: 1px solid rgb(71, 71, 71);;
     border-radius: 10px;
     height: 100%;
-    background-color: #ffeb3bdb;
+    background-color: #e0e0e0db;
     overflow: hidden;
     width: 75%;
 }
@@ -82,14 +82,37 @@ html , body {
     color: white;
     top: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 50px;
+    flex-direction: column-reverse;
     width: 100%;
     background-color:rgb(71, 71, 71);
     border: 2px solid rgb(71, 71, 71);
     border-radius: 10px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: all 1s;
+}
+
+
+
+.result {
+    display: none;
+    text-align: center;
+}
+
+.reset {
+    display: none;
+    padding: 10px;
+    background-color: cornsilk;
+    color: black;
+    cursor: pointer;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .actual-content {
