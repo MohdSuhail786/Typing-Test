@@ -33,6 +33,7 @@ html , body {
 
 .test-container {
     color: white;
+    z-index: 3;
     display: flex;
     margin-right: 50px;
     justify-content: end;
