@@ -132,6 +132,8 @@ function setCurrentActiveTime(t) {
     if (typeof (Storage) !== "undefined") {
         if (sessionStorage.activeTime) {
             sessionStorage.activeTime = t;
+        } else {
+            sessionStorage.activeTime = 60;
         }
     } else {
         console.log("Storage not supported");
