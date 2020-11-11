@@ -13,6 +13,7 @@ html , body {
     background-color: rgb(71, 71, 71);
     height: 49.2px;
     width: 100%;
+    z-index: 3;
     position: fixed;
     top: 0;
     left: 0;
