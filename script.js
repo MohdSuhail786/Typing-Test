@@ -128,6 +128,7 @@ function setTimerContent(time) {
 }
 
 function setCurrentActiveTime(t) {
+    console.log(t,"Set");
     if (typeof (Storage) !== "undefined") {
         if (sessionStorage.activeTime) {
             sessionStorage.activeTime = t;
